@@ -1,0 +1,242 @@
+export const zapatillas = [
+    {
+        "Id":"1",
+        "Nombre":"Air Max 1",
+        "Marca":"Nike",
+        "Talla":"39",
+        "Img":"https://nikeclprod.vtexassets.com/arquivos/ids/939706/FD9082_106_A_PREM.jpg?v=638399756203200000",
+        "Stock":"28",
+        "Genero":"Hombre",
+        "Precio":"53.990"
+    },
+    {
+        "Id":"2",
+        "Nombre":"Old Skool",
+        "Marca":"Vans",
+        "Talla":"42",
+        "Img":"https://www.realkicks.cl/cdn/shop/products/p-m0d3hy28-1-8bf666c9-f6ab-4cf6-b100-fe0a1b407521.jpg?v=1604572896",
+        "Stock":"11",
+        "Genero":"Hombre",
+        "Precio":"57.990"
+    },
+    {
+        "Id":"3",
+        "Nombre":"Cali Fashion",
+        "Marca":"Puma",
+        "Talla":"37",
+        "Img":"https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/369155/04/sv01/fnd/CHL/w/1000/h/1000/fmt/png",
+        "Stock":"18",
+        "Genero":"Mujer",
+        "Precio":"22.990"
+    },
+    {
+        "Id":"4",
+        "Nombre":"Rsx Triple",
+        "Marca":"Puma",
+        "Talla":"40",
+        "Img":"https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/391928/01/sv01/fnd/CHL/w/1000/h/1000/fmt/png",
+        "Stock":"7",
+        "Genero":"Hombre",
+        "Precio":"32.990"
+    },
+    {
+        "Id":"5",
+        "Nombre":"Carina Street",
+        "Marca":"Puma",
+        "Talla":"39",
+        "Img":"https://home.ripley.cl/store/Attachment/WOP/D317/2000395029073/2000395029073_2.jpg",
+        "Stock":"16",
+        "Genero":"Mujer",
+        "Precio":"23.990" 
+    },
+    {
+        "Id":"6",
+        "Nombre":"Dunk Low Retro",
+        "Marca":"Nike",
+        "Talla":"42",
+        "Img":"https://nikeclprod.vtexassets.com/arquivos/ids/832469/DD1391_103_A_PREM.jpg?v=638315353389470000",
+        "Stock":"13",
+        "Genero":"Hombre",
+        "Precio":"56.990"
+    },
+    {
+        "Id":"7",
+        "Nombre":"Tech Hera",
+        "Marca":"Nike",
+        "Talla":"38",
+        "Img":"https://nikeclprod.vtexassets.com/arquivos/ids/915019/FJ9532_001_A_PREM.jpg?v=638382569446670000",
+        "Stock":"17",
+        "Genero":"Hombre",
+        "Precio":"32.990" 
+    },
+    {
+        "Id":"8",
+        "Nombre":"Air Max Excee",
+        "Marca":"Nike",
+        "Talla":"37",
+        "Img":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/8325964_1/w=800,h=800,fit=pad",
+        "Stock":"6",
+        "Genero":"Mujer",
+        "Precio":"31.990"
+    },
+    {
+        "Id":"9",
+        "Nombre":"Comfycush Old Skool",
+        "Marca":"Vans",
+        "Talla":"39",
+        "Img":"https://www.blockstore.cl/cdn/shop/products/p-VN0A3WMAODJ-1_1800x.jpg?v=1634339727",
+        "Stock":"6",
+        "Genero":"Hombre",
+        "Precio":"58.990"
+    },
+    {
+        "Id":"10",
+        "Nombre":"Arch Fit-All Tied",
+        "Marca":"Skechers",
+        "Talla":"37",
+        "Img":"https://home.ripley.cl/store/Attachment/WOP/D309/2000401049637/2000401049637_2.jpg",
+        "Stock":"21",
+        "Genero":"Mujer",
+        "Precio":"28.990"
+    },
+    {
+        "Id":"11",
+        "Nombre":"Doheny",
+        "Marca":"Vans",
+        "Talla":"37",
+        "Img":"https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/9futntqdlwraipm9019q2pr5nld2/c77c2a06864ac9aca38dc5bd9371de015471edcdbf322dfb14411689bf968ae5",
+        "Stock":"10",
+        "Genero":"Mujer",
+        "Precio":"34.990"
+    },
+    {
+        "Id":"12",
+        "Nombre":"Air Max Plus Tn",
+        "Marca":"Nike",
+        "Talla":"44",
+        "Img":"https://nikeclprod.vtexassets.com/arquivos/ids/977678-800-800?v=638478481162700000&width=800&height=800&aspect=true",
+        "Stock":"4",
+        "Genero":"Hombre",
+        "Precio":"47.990"
+    },
+    {
+        "Id":"13",
+        "Nombre":"Go Run Trail Altitude",
+        "Marca":"Skechers",
+        "Talla":"38",
+        "Img":"https://redsport.vtexassets.com/arquivos/ids/1175562-800-auto?v=638423191756100000&width=800&height=auto&aspect=true",
+        "Stock":"17",
+        "Genero":"Mujer",
+        "Precio":"35.990"
+    },
+    {
+        "Id":"14",
+        "Nombre":"Chuck Taylor All Star Lugged 2.0 Platform",
+        "Marca":"Converse",
+        "Talla":"36",
+        "Img":"https://coliseum.vteximg.com.br/arquivos/ids/479782-1000-1000/Zapatillas-Mujer-Converse-Chuck-Taylor-All-Star-Lugged-2.0-Platform-A00871C-0_1.jpg?v=637944437675900000",
+        "Stock":"18",
+        "Genero":"Mujer",
+        "Precio":"26.990"
+    },
+    {
+        "Id":"15",
+        "Nombre":"Chuck Taylor All Star Street",
+        "Marca":"Converse",
+        "Talla":"41",
+        "Img":"https://www.lapolar.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8f1089c3/images/large/21357227.jpg?sw=800&sh=800&sm=fit",
+        "Stock":"15",
+        "Genero":"Hombre",
+        "Precio":"39.990"
+    },
+    {
+        "Id":"16",
+        "Nombre":"Air Max SC",
+        "Marca":"Nike",
+        "Talla":"39",
+        "Img":"https://nikeclprod.vtexassets.com/arquivos/ids/835188/CW4554_116_A_PREM.jpg?v=638327399527670000",
+        "Stock":"5",
+        "Genero":"Hombre",
+        "Precio":"54.990"
+    },
+    {
+        "Id":"17",
+        "Nombre":"Park Street",
+        "Marca":"Adidas",
+        "Talla":"38",
+        "Img":"https://assets.adidas.com/images/w_600,f_auto,q_auto/de722e25b9aa4c19a710f83607e59b0b_9366/Zapatillas_Park_Street_Blanco_IG9847_01_standard.jpg",
+        "Stock":"13",
+        "Genero":"Mujer",
+        "Precio":"55.990"
+    },
+    {
+        "Id":"18",
+        "Nombre":"Star Player 76",
+        "Marca":"Converse",
+        "Talla":"40",
+        "Img":"https://www.bonzer.cl/cdn/shop/products/zapatilla-converse-star-player-76-398235.jpg?v=1697981772",
+        "Stock":"7",
+        "Genero":"Hombre",
+        "Precio":"45.990"
+    },
+    {
+        "Id":"19",
+        "Nombre":"Max Cushioning",
+        "Marca":"Skechers",
+        "Talla":"39",
+        "Img":"https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/ebko1jjj03lmigbth5386bzep9ni/c77c2a06864ac9aca38dc5bd9371de015471edcdbf322dfb14411689bf968ae5",
+        "Stock":"19",
+        "Genero":"Mujer",
+        "Precio":"37.990"
+    },
+    {
+        "Id":"20",
+        "Nombre":"Chuck Taylor All Star Plataform",
+        "Marca":"Converse",
+        "Talla":"37",
+        "Img":"https://home.ripley.cl/store/Attachment/WOP/D317/2000367086578/2000367086578_2.jpg",
+        "Stock":"5",
+        "Genero":"Mujer",
+        "Precio":"41.990"
+    },
+    {
+        "Id":"21",
+        "Nombre":"Raylan",
+        "Marca":"Skechers",
+        "Talla":"42",
+        "Img":"https://www.apro.cl/cdn/shop/files/427797-800-auto.jpg?v=1712597350&width=800",
+        "Stock":"6",
+        "Genero":"Hombre",
+        "Precio":"29.990"
+    },
+    {
+        "Id":"22",
+        "Nombre":"Super Star XLG",
+        "Marca":"Adidas",
+        "Talla":"39",
+        "Img":"https://assets.adidas.com/images/w_600,f_auto,q_auto/c35214f6104c4a288bfed0c7c88dd94c_9366/Zapatillas_Superstar_XLG_Blanco_IF9995_01_standard.jpg",
+        "Stock":"25",
+        "Genero":"Mujer",
+        "Precio":"36.990"
+    },
+    {
+        "Id":"23",
+        "Nombre":"Court Plataforma",
+        "Marca":"Adidas",
+        "Talla":"36",
+        "Img":"https://assets.adidas.com/images/w_600,f_auto,q_auto/d4f1e961dc354e2087ddaea800f8fb1b_9366/Zapatillas_adidas_Court_Plataforma_Blanco_GW9786_01_standard.jpg",
+        "Stock":"12",
+        "Genero":"Mujer",
+        "Precio":"24.990"
+    },
+    {
+        "Id":"24",
+        "Nombre":"Forum Low",
+        "Marca":"Adidas",
+        "Talla":"37",
+        "Img":"https://assets.adidas.com/images/w_600,f_auto,q_auto/ffe40fe134fe425cb77fafcb01190d8c_9366/Zapatillas_Forum_Low_Blanco_IE7175_01_standard.jpg",
+        "Stock":"2",
+        "Genero":"Hombre",
+        "Precio":"33.990"
+    }
+];
