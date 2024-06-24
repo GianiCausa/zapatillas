@@ -1,6 +1,6 @@
 Falta
 
-1 api
+api lista
 arreglos
 local storage (listo)
 carrito(listo)
