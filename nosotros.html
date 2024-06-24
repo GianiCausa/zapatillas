@@ -1,25 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
-    <link rel="stylesheet" href="assets/css/nosotros.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/nosotros.css">
 </head>
-<body>
-    <div class="contenido">
-        <h1>Sobre Nosotros - Zapatería San Antonio</h1>
-        <p>En Zapatería San Antonio nos dedicamos a ofrecer calzado de alta calidad desde hace más de 20 años. Nuestro compromiso es proporcionar a nuestros clientes no solo productos excelentes, sino también una experiencia de compra única.</p>
-        
-        <p>Nuestro catálogo incluye una amplia variedad de estilos y marcas reconocidas, desde calzado deportivo y casual. Nos esforzamos por mantenernos al tanto de las últimas tendencias y por ofrecer siempre lo mejor en confort y estilo.</p>
-        
-        <p>Además de nuestro compromiso con la calidad del producto, nos preocupamos por la satisfacción total de nuestros clientes. Nuestro equipo de expertos en calzado está siempre dispuesto a asesorar y ayudar a encontrar el par perfecto para cada ocasión.</p>
-        
-        <p>Visítanos en nuestra tienda ubicada en el centro comercial principal de tu ciudad, donde encontrarás un ambiente acogedor y un servicio personalizado que te hará sentir como en casa. Estamos aquí para ayudarte a caminar con estilo y comodidad en cada paso que des.</p>
-        
-        <p>¡Esperamos poder servirte pronto y convertirnos en tu tienda online de confianza para todas tus necesidades de calzado!</p>
 
-        <a class="btn-volver" href="index.html">Volver al Inicio</a>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/Logo.png" alt="Logo" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">Nosotros <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cuenta.html">Cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Marcas</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Puma</a>
+                            <a class="dropdown-item" href="#">Nike</a>
+                            <a class="dropdown-item" href="#">Adidas</a>
+                            <a class="dropdown-item" href="#">Otros</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-center">Acerca de Nosotros</h1>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="./assets/img/Logo.png" class="img-fluid" alt="Nuestra Zapatería">
+            </div>
+            <div class="col-md-6">
+                <p>Somos una zapatería comprometida con ofrecer el mejor calzado para toda la familia. Fundada en 1990, nuestra misión ha sido siempre proporcionar productos de calidad y un servicio al cliente excepcional.</p>
+                <p>Contamos con una amplia variedad de marcas y estilos, desde lo clásico hasta lo más moderno. Nuestro equipo está siempre disponible para ayudarte a encontrar el zapato perfecto para cualquier ocasión.</p>
+                <p>Visítanos en nuestra tienda física o explora nuestro catálogo en línea. ¡Te esperamos!</p>
+            </div>
+        </div>
     </div>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2024 Zapatería. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+
 </html>

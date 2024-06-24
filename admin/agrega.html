@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar,Editar o eliminar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/css/index.css">
+  <link rel="stylesheet" href="../assets/css/editadmin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="../assets/img/Logo.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+        aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../cuenta.html">Cuenta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../usuario/Productos.html">Productos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="header">
+    <h1>Agregar,Editar,Eliminar</h1>
+  </header>
+
+  <main>
+    <div class="contenedor">
+      <!-- Añadir -->
+      <div class="añadir">
+        <h2>Añadir</h2>
+        <form>
+          <label>Nombre del producto</label>
+          <input type="text" id="productoAñadir" name="nombreDelProducto">
+
+          <label>Valor del producto</label>
+          <input type="number" id="valorAñadir">
+
+          <label>Existencia</label>
+          <input type="number" id="existenciaAñadir">
+
+          <label>Url Imagen</label>
+          <input type="text" id="ImagenAñadir">
+
+          <input class="button" type="button" id="botonAñadir" value="Añadir">
+        </form>
+      </div>
+      <!-- Editar -->
+      <div class="editar">
+        <h2>Editar</h2>
+        <form>
+          <label>Nombre del producto</label>
+          <select id="productoEditar">
+            <option value="">---</option>
+          </select>
+
+          <label>Atributo</label>
+          <select id="atributoEditar">
+            <option value="">---</option>
+          </select>
+
+          <label>Nuevo valor</label>
+          <input type="text" id="nuevoAtributo">
+
+          <input class="button" type="button" id="botonEditar" value="Editar">
+        </form>
+      </div>
+
+      <!-- Eliminar -->
+      <div class="eliminar">
+        <h2>Eliminar</h2>
+
+        <form>
+          <label>Nombre del producto</label>
+          <select id="productoEliminar">
+            <option value="">---</option>
+          </select>
+          <input class="button" type="button" id="botonEliminar" value="Eliminar">
+        </form>
+      </div>
+    </div>
+
+    <!-- Mostrar el mensaje -->
+    <div class="contenedorMensaje">
+      <div id="mensaje"></div>
+    </div>
+
+    <!-- Productos -->
+    <div class="contenedorProductos">
+      <h2>Productos</h2>
+      <div class="mostrarProductos" id="mostrarProductos">
+
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="../assets/js/editadmin.js"></script>
+</body>
+
+</html>
