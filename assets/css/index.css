@@ -251,3 +251,20 @@
   footer.bg-dark .text-muted {
     color: rgba(255, 255, 255, 0.7) !important; /* Cambia el color del texto a gris claro */
 }
+/* aside*/
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Altura del aside*/
+  background-color: #f1f1f1; /* Color de fondo del aside */
+  padding: 20px; /* Espacio interno del aside */
+  box-sizing: border-box;
+}
+
+/* Estilo para la imagen */
+aside img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

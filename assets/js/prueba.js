@@ -15,7 +15,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   // Definir arrays de correos electrónicos y contraseñas para administradores y clientes
   var administradores = [
-      { email: "admin@example.com", password: "admin2" },
+      { email: "gi.causa@duocuc.cl", password: "gianina1234" },
       { email: "admin1@example.com", password: "admin1" },
       { email: "admin2@example.com", password: "admin2pass" }
   ];

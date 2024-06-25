@@ -6,7 +6,7 @@
 }
 body {
     font-family: 'Space Grotesk', sans-serif;
-    background-color: #141C29;
+    background-color: #798dac;
     padding-top: 80px;
 }
 h1{
@@ -19,6 +19,7 @@ img {
     height: 340px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+    position: static;
 }
 header{
     display: flex;
@@ -29,6 +30,7 @@ header{
     top: 0;
     position: fixed;
     width: 100%;
+    background-color: rgb(104, 122, 172);
 
 }
 .scroll{
@@ -45,7 +47,7 @@ header{
     filter: invert(100%);
     width: 45px;
     height: auto;
-    position: absolute;
+    position: static;
     top: 14px;
     cursor: pointer;
 }
